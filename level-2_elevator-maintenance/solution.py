@@ -32,7 +32,7 @@ def solution(l):
         elif(len(ops[i])==3):
             ops[i]=str(ops[i][0])+'.'+str(ops[i][1])+'.'+str(ops[i][2])
     
-    print(ops)
+    #print(ops)
     return ops
         
     
