@@ -88,9 +88,6 @@ def solution(n):
     #step-6: FxR
     FR=np.dot(F,R)
  
-    # print(R)
-    # print('\n')
-    # print(Q)
 
     # to list
     FR=FR.tolist()
