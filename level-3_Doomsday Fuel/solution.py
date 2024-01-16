@@ -67,7 +67,7 @@ def solution(n):
         
   
 
-    #step-4: setup P,Q
+    #step-4: setup R,Q
     R = []
     Q = []
     for i in range(len(other_mat)):
