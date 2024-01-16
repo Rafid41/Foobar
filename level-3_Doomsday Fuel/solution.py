@@ -42,6 +42,8 @@ def solution(n):
             other_mat.append(n[i])
             order_of_other.append(i)
 
+    #step-2: re-arranging all rows of non zero elements
+    # rows having all 0's will be in top and bottom rows will contain the non zero rows
     order = order_of_zero + order_of_other
 
     for i in range(len(other_mat)):
